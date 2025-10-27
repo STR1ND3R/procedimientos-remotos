@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package videojuegos;
+
+service VideojuegosService {
+  rpc Listar (Empty) returns (VideojuegoList);
+  rpc Obtener (VideojuegoId) returns (Videojuego);
+  rpc Crear (Videojuego) returns (Videojuego);
+  rpc Actualizar (Videojuego) returns (Videojuego);
+  rpc Eliminar (VideojuegoId) returns (OperationStatus);
+}
+
+message Empty {}
+
+message Videojuego {
+  int32 id = 1;
+  string titulo = 2;
+  string plataforma = 3;
+  int32 ano = 4;
+}
+
+message VideojuegoList {
+  repeated Videojuego juegos = 1;
+}
+
+message VideojuegoId {
+  int32 id = 1;
+}
+
+message OperationStatus {
+  bool success = 1;
+  string message = 2;
+}

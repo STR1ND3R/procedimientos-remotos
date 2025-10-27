@@ -1,0 +1,5 @@
+[
+  { "id": 1, "titulo": "The Legend of Zelda", "plataforma": "Switch", "ano": 2017 },
+  { "id": 2, "titulo": "God of War", "plataforma": "PlayStation", "ano": 2018 },
+  { "id": 3, "titulo": "Halo Infinite", "plataforma": "Xbox", "ano": 2021 }
+]
