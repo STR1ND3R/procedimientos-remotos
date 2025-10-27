@@ -1,2 +1,8 @@
-Error: no se ha encontrado o cargado la clase principal Main
-Causado por: java.lang.ClassNotFoundException: Main
+Exception in thread "main" java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at VideojuegosServiceImpl.<init>(VideojuegosServiceImpl.java:11)
+	at Main.main(Main.java:7)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 2 more

@@ -1,3 +1,3 @@
 ✅ gRPC server corriendo en puerto 50051
-(node:28723) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(node:14193) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
